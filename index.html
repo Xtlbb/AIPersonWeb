@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="时光清浅是一个 AI 初学者的学习记录网站，记录 AI 工具、提示词、工作流和实践心得。"
+    >
+    <title>时光清浅 | AI 学习记录</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="回到首页">时光清浅</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="sr-only">打开导航</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#home">首页</a>
+        <a href="#path">学习路线</a>
+        <a href="#articles">文章</a>
+        <a href="#experiments">实验项目</a>
+        <a href="#about">关于我</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <p class="eyebrow">AI 初学者的学习记录</p>
+          <h1 id="hero-title">时光清浅</h1>
+          <p class="hero__lead">
+            我正在学习如何把 AI 用到真实生活和工作中。这里记录我的学习路径、实践实验、提示词心得，以及一路踩过的坑。
+          </p>
+          <div class="hero__actions" aria-label="主要操作">
+            <a class="button button--primary" href="#articles">查看学习记录</a>
+            <a class="button button--secondary" href="#experiments">查看实验项目</a>
+          </div>
+        </div>
+        <aside class="hero__panel" aria-label="本周学习面板">
+          <span class="note-label">本周学习面板</span>
+          <h2>从真实任务开始学习 AI</h2>
+          <dl class="learning-status">
+            <div>
+              <dt>当前主题</dt>
+              <dd>提示词写作</dd>
+            </div>
+            <div>
+              <dt>正在做</dt>
+              <dd>个人网站搭建实验</dd>
+            </div>
+            <div>
+              <dt>最近记录</dt>
+              <dd>我如何让 AI 帮我规划一个个人网站</dd>
+            </div>
+            <div>
+              <dt>下一步</dt>
+              <dd>整理一套适合初学者的提示词模板</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="focus-strip" aria-label="当前学习动态">
+        <article>
+          <span>正在学习</span>
+          <strong>提示词结构化表达</strong>
+          <p>把模糊需求拆成目标、背景、约束和输出格式。</p>
+        </article>
+        <article>
+          <span>正在尝试</span>
+          <strong>AI 辅助整理资料</strong>
+          <p>让 AI 先做初步归纳，再由自己判断和修正。</p>
+        </article>
+        <article>
+          <span>正在沉淀</span>
+          <strong>个人提示词库</strong>
+          <p>把重复使用的提示词整理成以后能直接复用的模板。</p>
+        </article>
+      </section>
+
+      <section class="section about-preview" id="about" aria-labelledby="about-title">
+        <div class="section__header">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">关于我</h2>
+        </div>
+        <div class="about-preview__body">
+          <p>
+            你好，我是时光清浅。我不是 AI 专家，而是一个正在认真学习 AI 的普通使用者。
+          </p>
+          <p>
+            我希望通过真实任务来理解 AI：怎么写提示词，怎么整理资料，怎么提升工作效率，怎么把想法变成可以运行的小工具。这个网站会记录我的学习过程，也欢迎你和我一起交流。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="path" aria-labelledby="path-title">
+        <div class="section__header">
+          <p class="eyebrow">Learning Path</p>
+          <h2 id="path-title">AI 学习路线</h2>
+          <p>先从能用起来的地方开始，把每一次尝试都整理成下一次可以复用的方法。</p>
+        </div>
+        <div class="path-grid">
+          <article class="path-card">
+            <span>01</span>
+            <h3>AI 工具入门</h3>
+            <p>记录尝试过的工具和真实使用感受。</p>
+          </article>
+          <article class="path-card">
+            <span>02</span>
+            <h3>提示词写作</h3>
+            <p>整理好用的提示词方法和案例。</p>
+          </article>
+          <article class="path-card">
+            <span>03</span>
+            <h3>AI 辅助办公</h3>
+            <p>用 AI 做资料整理、总结、计划和表达。</p>
+          </article>
+          <article class="path-card">
+            <span>04</span>
+            <h3>AI 辅助创作</h3>
+            <p>用 AI 帮助写作、设计和内容构思。</p>
+          </article>
+          <article class="path-card">
+            <span>05</span>
+            <h3>AI 辅助编程</h3>
+            <p>记录从零开始尝试做网页和小工具的过程。</p>
+          </article>
+          <article class="path-card">
+            <span>06</span>
+            <h3>自动化工作流</h3>
+            <p>探索如何把重复任务交给 AI 或自动化工具。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="articles" aria-labelledby="articles-title">
+        <div class="section__header section__header--split">
+          <div>
+            <p class="eyebrow">Notes</p>
+            <h2 id="articles-title">最新学习记录</h2>
+          </div>
+          <p>这些文章是学习过程的阶段性整理，不追求完美，重点是真实和可复用。</p>
+        </div>
+        <div class="article-list">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <time datetime="2026-05-23">2026.05.23</time>
+              <span>开始学习</span>
+            </div>
+            <h3>我为什么开始学习 AI</h3>
+            <p>记录开始学习 AI 的原因，以及我希望通过这个网站沉淀什么。</p>
+          </article>
+          <article class="article-card">
+            <div class="article-card__meta">
+              <time datetime="2026-05-23">2026.05.23</time>
+              <span>提示词</span>
+            </div>
+            <h3>第一次认真写提示词，我发现了什么</h3>
+            <p>从一句模糊需求到结构化表达，整理提示词带来的几个变化。</p>
+          </article>
+          <article class="article-card">
+            <div class="article-card__meta">
+              <time datetime="2026-05-23">2026.05.23</time>
+              <span>复盘</span>
+            </div>
+            <h3>AI 初学者最容易犯的几个错误</h3>
+            <p>把初学阶段容易出现的误解和踩坑记录下来，提醒自己慢慢改进。</p>
+          </article>
+          <article class="article-card">
+            <div class="article-card__meta">
+              <time datetime="2026-05-23">2026.05.23</time>
+              <span>办公</span>
+            </div>
+            <h3>用 AI 帮我整理资料的一次尝试</h3>
+            <p>记录一次资料整理任务中，AI 哪些地方有帮助，哪些地方还需要人工判断。</p>
+          </article>
+          <article class="article-card">
+            <div class="article-card__meta">
+              <time datetime="2026-05-23">2026.05.23</time>
+              <span>建站</span>
+            </div>
+            <h3>我如何让 AI 帮我规划一个个人网站</h3>
+            <p>从网站定位、读者、风格到首页结构，记录一次 AI 协作设计过程。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experiments" aria-labelledby="experiments-title">
+        <div class="section__header">
+          <p class="eyebrow">Experiments</p>
+          <h2 id="experiments-title">实验项目</h2>
+          <p>用小任务验证想法，记录问题、工具和当前状态。</p>
+        </div>
+        <div class="experiment-grid">
+          <article class="experiment-card">
+            <div class="status status--active">进行中</div>
+            <h3>个人网站搭建实验</h3>
+            <p>用 AI 帮助我从想法到网站设计。</p>
+            <dl>
+              <div>
+                <dt>问题</dt>
+                <dd>如何把学习记录整理成一个清晰的网站？</dd>
+              </div>
+              <div>
+                <dt>工具</dt>
+                <dd>AI 对话工具、代码助手</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="experiment-card">
+            <div class="status">计划中</div>
+            <h3>提示词整理库</h3>
+            <p>收集自己常用的提示词模板。</p>
+            <dl>
+              <div>
+                <dt>问题</dt>
+                <dd>怎样把零散提示词沉淀成可复用模板？</dd>
+              </div>
+              <div>
+                <dt>工具</dt>
+                <dd>文档工具、AI 对话工具</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="experiment-card">
+            <div class="status">计划中</div>
+            <h3>AI 学习周记</h3>
+            <p>每周总结一次 AI 使用心得。</p>
+            <dl>
+              <div>
+                <dt>问题</dt>
+                <dd>怎样让学习过程持续、可回顾？</dd>
+              </div>
+              <div>
+                <dt>工具</dt>
+                <dd>AI 总结工具、个人笔记</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">一起交流 AI 的真实用法</h2>
+        </div>
+        <p>
+          如果你也在学习 AI，或者想交流 AI 在工作和生活里的真实用法，欢迎联系我。
+        </p>
+        <a class="button button--primary" href="#articles">先看看学习记录</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 时光清浅 · AI 学习记录</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
